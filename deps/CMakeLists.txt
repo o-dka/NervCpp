@@ -2,8 +2,8 @@ include(FetchContent)
 
 FetchContent_Declare(
   eigen
-  GIT_REPOSITORY https://github.com/PX4/eigen.git 
-  GIT_TAG dde02fceedfc1ba09d4d4f71a2b5dafcfcb85491
+  GIT_REPOSITORY https://gitlab.com/libeigen/eigen
+  GIT_TAG 3147391d946bb4b6c68edd901f2add6ac1f31f8c
 )
 FetchContent_MakeAvailable(eigen)
 
